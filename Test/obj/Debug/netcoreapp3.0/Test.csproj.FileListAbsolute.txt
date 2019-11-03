@@ -1,0 +1,28 @@
+C:\Users\1\RiderProjects\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.exe
+C:\Users\1\RiderProjects\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.deps.json
+C:\Users\1\RiderProjects\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.runtimeconfig.json
+C:\Users\1\RiderProjects\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.runtimeconfig.dev.json
+C:\Users\1\RiderProjects\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.dll
+C:\Users\1\RiderProjects\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.pdb
+C:\Users\1\RiderProjects\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.csprojAssemblyReference.cache
+C:\Users\1\RiderProjects\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.AssemblyInfoInputs.cache
+C:\Users\1\RiderProjects\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.AssemblyInfo.cs
+C:\Users\1\RiderProjects\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.csproj.CopyComplete
+C:\Users\1\RiderProjects\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.dll
+C:\Users\1\RiderProjects\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.pdb
+C:\Users\1\RiderProjects\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Domain.dll
+C:\Users\1\RiderProjects\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.exe
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.deps.json
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.runtimeconfig.json
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.runtimeconfig.dev.json
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.dll
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Test.pdb
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Domain.dll
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.csprojAssemblyReference.cache
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.AssemblyInfoInputs.cache
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.AssemblyInfo.cs
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.csproj.CopyComplete
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.dll
+C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Test\obj\Debug\netcoreapp3.0\Test.pdb

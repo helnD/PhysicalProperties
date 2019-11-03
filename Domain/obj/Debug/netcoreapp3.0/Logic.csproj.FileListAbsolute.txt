@@ -1,0 +1,8 @@
+C:\Users\1\RiderProjects\PhysicalProperties\Logic\bin\Debug\netcoreapp3.0\Logic.deps.json
+C:\Users\1\RiderProjects\PhysicalProperties\Logic\bin\Debug\netcoreapp3.0\Logic.dll
+C:\Users\1\RiderProjects\PhysicalProperties\Logic\bin\Debug\netcoreapp3.0\Logic.pdb
+C:\Users\1\RiderProjects\PhysicalProperties\Logic\obj\Debug\netcoreapp3.0\Logic.csprojAssemblyReference.cache
+C:\Users\1\RiderProjects\PhysicalProperties\Logic\obj\Debug\netcoreapp3.0\Logic.AssemblyInfoInputs.cache
+C:\Users\1\RiderProjects\PhysicalProperties\Logic\obj\Debug\netcoreapp3.0\Logic.AssemblyInfo.cs
+C:\Users\1\RiderProjects\PhysicalProperties\Logic\obj\Debug\netcoreapp3.0\Logic.dll
+C:\Users\1\RiderProjects\PhysicalProperties\Logic\obj\Debug\netcoreapp3.0\Logic.pdb
