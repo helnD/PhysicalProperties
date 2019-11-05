@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Documents\\Владимир\\5 семестр\\ТОИ\\лаба8\\PhysicalProperties\\Domain\\Domain.csproj": {}
+    "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Documents\\Владимир\\5 семестр\\ТОИ\\лаба8\\PhysicalProperties\\Domain\\Domain.csproj": {
+    "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Documents\\Владимир\\5 семестр\\ТОИ\\лаба8\\PhysicalProperties\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\1\\Documents\\Владимир\\5 семестр\\ТОИ\\лаба8\\PhysicalProperties\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Documents\\Владимир\\5 семестр\\ТОИ\\лаба8\\PhysicalProperties\\Domain\\obj\\",
+        "projectPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Виктория\\.nuget\\packages\\",
+        "outputPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Виктория\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

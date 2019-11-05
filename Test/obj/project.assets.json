@@ -27,31 +27,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1\\.nuget\\packages\\": {}
+    "C:\\Users\\Виктория\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Documents\\Владимир\\5 семестр\\ТОИ\\лаба8\\PhysicalProperties\\Test\\Test.csproj",
+      "projectUniqueName": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\1\\Documents\\Владимир\\5 семестр\\ТОИ\\лаба8\\PhysicalProperties\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Documents\\Владимир\\5 семестр\\ТОИ\\лаба8\\PhysicalProperties\\Test\\obj\\",
+      "projectPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\Виктория\\.nuget\\packages\\",
+      "outputPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Виктория\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\1\\Documents\\Владимир\\5 семестр\\ТОИ\\лаба8\\PhysicalProperties\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\1\\Documents\\Владимир\\5 семестр\\ТОИ\\лаба8\\PhysicalProperties\\Domain\\Domain.csproj"
+            "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj"
             }
           }
         }

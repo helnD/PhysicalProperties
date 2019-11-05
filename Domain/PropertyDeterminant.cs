@@ -5,7 +5,8 @@ namespace System
 {
     public class PropertyDeterminant
     {
-        public PropertySet DeterminePropertySet(Model model) =>
+
+	    public PropertySet DeterminePropertySet(Model model) =>
 			new PropertySet(Area(model), MassCenter(model), MassCenter2(model),
 				Perimeter(model), Perimeter2(model), CircumferenceRatio(model));
 

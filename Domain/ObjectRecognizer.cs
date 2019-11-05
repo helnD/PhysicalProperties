@@ -5,6 +5,26 @@ namespace System
 {
     public class ObjectRecognizer
     {
+        
+        private List<Color> _colors = new List<Color>
+        {
+            new Color(0, 123, 127),
+            new Color(222, 49, 99),
+            new Color(99, 3, 196),
+            new Color(13, 152, 186),
+            new Color(204, 6, 5),
+            new Color(184, 0, 44),
+            new Color(255, 79, 0),
+            new Color(255, 146, 24),
+            new Color(255, 216, 0),
+            new Color(173, 250, 2),
+            new Color(102, 255, 0),
+            new Color(0, 100, 0),
+            new Color(25, 25, 112),
+            new Color(123, 104, 238),
+            new Color(128, 0, 0),
+        };
+        
         public List<GraphicalObject> FindObjects(Model model)
         {
             Dictionary<int, List<Pixel>> recognizedObjects = new Dictionary<int, List<Pixel>>();
@@ -30,7 +50,7 @@ namespace System
             objects.AddRange(recognizedObjects.Select(it =>
             {
                 Model objModel = new Model(it.Value);
-                Color objColor = new Color(it.Key, it.Key, it.Key);
+                Color objColor = _colors[new Random().Next(0, _colors.Count)];
                 PropertySet objProperties = new PropertyDeterminant().DeterminePropertySet(objModel);
                 Coordinate position = ObjectPosition(it.Value);
                 return new GraphicalObject(objModel, objColor, objProperties, position);

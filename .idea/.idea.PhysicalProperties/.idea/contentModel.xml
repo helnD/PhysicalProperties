@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\1\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\1\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_PhysicalProperties.-289323960.00" t="ExcludeRecursive" />
-    <e p="C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties" t="IncludeFlat">
+    <e p="C:\Users\Виктория\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Виктория\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_PhysicalProperties.-642629263.00" t="ExcludeRecursive" />
+    <e p="D:\Учеба\ТОИ\lab8\PhysicalProperties" t="IncludeFlat">
       <e p="Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Color.cs" t="Include" />
@@ -25,17 +25,38 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="PhysicalProperties.sln" t="IncludeFlat" />
-      <e p="Test" t="IncludeRecursive">
+      <e p="View" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
-              <e p="Test.AssemblyInfo.cs" t="Include" />
+              <e p="View.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="Program.cs" t="Include" />
-        <e p="Test.csproj" t="IncludeRecursive" />
+        <e p="res" t="Include">
+          <e p="img" t="Include">
+            <e p="cross.png" t="Include" />
+          </e>
+        </e>
+        <e p="Styles.xaml" t="Include" />
+        <e p="View.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ViewModel" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainViewModel.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="ViewModel.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ViewModel.csproj" t="IncludeRecursive" />
       </e>
     </e>
   </component>

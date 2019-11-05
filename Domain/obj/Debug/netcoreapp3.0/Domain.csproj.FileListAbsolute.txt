@@ -14,3 +14,11 @@ C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\Physical
 C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfo.cs
 C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Domain\obj\Debug\netcoreapp3.0\Domain.dll
 C:\Users\1\Documents\Владимир\5 семестр\ТОИ\лаба8\PhysicalProperties\Domain\obj\Debug\netcoreapp3.0\Domain.pdb
+D:\Учеба\ТОИ\lab8\PhysicalProperties\Domain\bin\Debug\netcoreapp3.0\Domain.deps.json
+D:\Учеба\ТОИ\lab8\PhysicalProperties\Domain\bin\Debug\netcoreapp3.0\Domain.dll
+D:\Учеба\ТОИ\lab8\PhysicalProperties\Domain\bin\Debug\netcoreapp3.0\Domain.pdb
+D:\Учеба\ТОИ\lab8\PhysicalProperties\Domain\obj\Debug\netcoreapp3.0\Domain.csprojAssemblyReference.cache
+D:\Учеба\ТОИ\lab8\PhysicalProperties\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfoInputs.cache
+D:\Учеба\ТОИ\lab8\PhysicalProperties\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfo.cs
+D:\Учеба\ТОИ\lab8\PhysicalProperties\Domain\obj\Debug\netcoreapp3.0\Domain.dll
+D:\Учеба\ТОИ\lab8\PhysicalProperties\Domain\obj\Debug\netcoreapp3.0\Domain.pdb

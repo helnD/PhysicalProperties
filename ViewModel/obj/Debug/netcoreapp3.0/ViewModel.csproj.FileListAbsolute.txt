@@ -1,0 +1,11 @@
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\bin\Debug\netcoreapp3.0\ViewModel.deps.json
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\bin\Debug\netcoreapp3.0\ViewModel.dll
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\bin\Debug\netcoreapp3.0\ViewModel.pdb
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\bin\Debug\netcoreapp3.0\Domain.dll
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\bin\Debug\netcoreapp3.0\Domain.pdb
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.csprojAssemblyReference.cache
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.AssemblyInfoInputs.cache
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.AssemblyInfo.cs
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.csproj.CopyComplete
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.dll
+D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.pdb
