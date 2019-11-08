@@ -10,7 +10,7 @@
         <Grid Height="30" VerticalAlignment="Top" MouseLeftButtonDown="Border_MouseLeftButtonDown">
             <Label Content="Физические свойства объекта и маркировка" Margin="0,0,0,0" Width="606" Padding="10,6,6,0" HorizontalAlignment="Left">
                 <Label.Foreground>
-                    <SolidColorBrush Color="{DynamicResource MainTextColor}"/>
+                    <SolidColorBrush Color="#FFD8D8D8"/>
                 </Label.Foreground>
             </Label>
             <Button x:Name="CloseButton" Style="{DynamicResource ResourceKey=CloseButtonStyle}" Height="30" Width="40" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" BorderBrush="{x:Null}" Background="{x:Null}" HorizontalContentAlignment="Center" PreviewMouseLeftButtonUp="Button_PreviewMouseLeftButtonUp">
@@ -22,8 +22,11 @@
                 <DropShadowEffect Color="#FF464646" BlurRadius="10"/>
             </Canvas.Effect>
         </Canvas>
-        <Button x:Name="ClearCanvasButton" Style="{DynamicResource ClearButtonStyle}" PreviewMouseUp="ClearCanvasButton_OnPreviewMouseDown" Content="Очистить" HorizontalAlignment="Left" Margin="450,205,0,0" VerticalAlignment="Top" Width="152" Foreground="#FFD8D8D8"/>
-        <Button x:Name="CalculateButton" Style="{DynamicResource ButtonBaseStyle}" Content="Посчитать" HorizontalAlignment="Left" Margin="450,242,0,0" VerticalAlignment="Top" Width="152" Foreground="#FFD8D8D8" PreviewMouseLeftButtonDown="CalculateButton_PreviewMouseLeftButtonDown"/>
+        <Label Content="Метод маркировки объектов" Margin="440,54,0,0" Height="28" VerticalAlignment="Top" Foreground="#FFD8D8D8" HorizontalAlignment="Left" Width="206"></Label>
+        <RadioButton x:Name="LineMethodRadioButton" Margin="460,89,0,0" IsChecked="True" Content="Построчный" Height="27" VerticalAlignment="Top" Foreground="#FFD8D8D8" HorizontalAlignment="Left" Width="176"></RadioButton>
+        <RadioButton x:Name="RecursiveMethodRadioButton" Margin="460,114,0,0" Content="Рекурсивный" Height="26" VerticalAlignment="Top" Foreground="#FFD8D8D8" HorizontalAlignment="Left" Width="176"></RadioButton>
+        <Button x:Name="ClearCanvasButton" Style="{DynamicResource ClearButtonStyle}" PreviewMouseUp="ClearCanvasButton_OnPreviewMouseDown" Content="Очистить" HorizontalAlignment="Left" Margin="450,183,0,0" VerticalAlignment="Top" Width="152" Foreground="#FFD8D8D8"/>
+        <Button x:Name="CalculateButton" Style="{DynamicResource ButtonBaseStyle}" Content="Посчитать" HorizontalAlignment="Left" Margin="450,154,0,0" VerticalAlignment="Top" Width="152" Foreground="#FFD8D8D8" PreviewMouseLeftButtonDown="CalculateButton_PreviewMouseLeftButtonDown"/>
         <FlowDocumentScrollViewer Margin="0,441,0,0" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" SelectionBrush="#FFC14646" Foreground="#FFD8D8D8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="{x:Null}">
             <FlowDocument>
                 <Table Name="DataTable" CellSpacing="0" BorderThickness="0" FontFamily="Segoe UI" FontSize="12" BorderBrush="#FFDADADA">
