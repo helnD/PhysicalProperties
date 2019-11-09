@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:View"
         mc:Ignorable="d"
-        WindowStyle="None" Height="695.888" Width="645.5" ResizeMode="NoResize" Background="#FF211438">
+        WindowStyle="None" Height="600.888" Width="645.5" ResizeMode="NoResize" Background="#FF211438">
     <Grid>
         <Grid Height="30" VerticalAlignment="Top" MouseLeftButtonDown="Border_MouseLeftButtonDown">
             <Label Content="Физические свойства объекта и маркировка" Margin="0,0,0,0" Width="606" Padding="10,6,6,0" HorizontalAlignment="Left">
@@ -23,8 +23,8 @@
             </Canvas.Effect>
         </Canvas>
         <Label Content="Метод маркировки объектов" Margin="440,54,0,0" Height="28" VerticalAlignment="Top" Foreground="#FFD8D8D8" HorizontalAlignment="Left" Width="206"></Label>
-        <RadioButton x:Name="LineMethodRadioButton" Margin="460,89,0,0" IsChecked="True" Content="Построчный" Height="27" VerticalAlignment="Top" Foreground="#FFD8D8D8" HorizontalAlignment="Left" Width="176"></RadioButton>
-        <RadioButton x:Name="RecursiveMethodRadioButton" Margin="460,114,0,0" Content="Рекурсивный" Height="26" VerticalAlignment="Top" Foreground="#FFD8D8D8" HorizontalAlignment="Left" Width="176"></RadioButton>
+        <RadioButton x:Name="LineMethodRadioButton" Margin="460,89,0,0" IsChecked="True" Checked="LineMethodRadioButton_OnChecked" Content="Построчный" Height="27" VerticalAlignment="Top" Foreground="#FFD8D8D8" HorizontalAlignment="Left" Width="176"></RadioButton>
+        <RadioButton x:Name="RecursiveMethodRadioButton" Margin="460,114,0,0" Checked="RecursiveMethodRadioButton_OnChecked" Content="Рекурсивный" Height="26" VerticalAlignment="Top" Foreground="#FFD8D8D8" HorizontalAlignment="Left" Width="176"></RadioButton>
         <Button x:Name="ClearCanvasButton" Style="{DynamicResource ClearButtonStyle}" PreviewMouseUp="ClearCanvasButton_OnPreviewMouseDown" Content="Очистить" HorizontalAlignment="Left" Margin="450,183,0,0" VerticalAlignment="Top" Width="152" Foreground="#FFD8D8D8"/>
         <Button x:Name="CalculateButton" Style="{DynamicResource ButtonBaseStyle}" Content="Посчитать" HorizontalAlignment="Left" Margin="450,154,0,0" VerticalAlignment="Top" Width="152" Foreground="#FFD8D8D8" PreviewMouseLeftButtonDown="CalculateButton_PreviewMouseLeftButtonDown"/>
         <FlowDocumentScrollViewer Margin="0,441,0,0" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" SelectionBrush="#FFC14646" Foreground="#FFD8D8D8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="{x:Null}">

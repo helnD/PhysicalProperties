@@ -23,11 +23,13 @@ namespace ViewModel
         
         public int[][] SourceModel { get; set; }
         public List<GraphicalObject> GraphicalObjects { get; set; }
+        
+        public ObjectRecognizer Recognizer { get; }
+            = new ObjectRecognizer();
 
         public void CalculateProperties()
         {
-            ObjectRecognizer objectRecognizer = new ObjectRecognizer();
-            GraphicalObjects = objectRecognizer.FindObjects(ToModel(SourceModel));
+            GraphicalObjects = Recognizer.FindObjects(ToModel(SourceModel));
         }
 
         public void ClearSourceModel()

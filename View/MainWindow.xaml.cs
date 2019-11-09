@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.MarkingBehaviour;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,8 +22,8 @@ namespace View
     {
         public MainWindow()
         {
-            InitializeComponent();
             DataContext = new MainViewModel();
+            InitializeComponent();
         }
 
         private bool _isDrawing;
@@ -222,7 +223,18 @@ namespace View
             ClearCanvas(DrawCanvas);
             DrawMulticoloredPixels(context);
         }
+        
+        private void LineMethodRadioButton_OnChecked(object sender, RoutedEventArgs e)
+        {
+            (DataContext as MainViewModel).Recognizer.MarkingBehaviour = new RowMarking();
+        }
+        
+        private void RecursiveMethodRadioButton_OnChecked(object sender, RoutedEventArgs e)
+        {
+            (DataContext as MainViewModel).Recognizer.MarkingBehaviour = new DepthMarking();
+        }
 
+        
         private void DrawMulticoloredPixels(MainViewModel context)
         {
             double sizeX = (DrawCanvas.Width / _numberOfColumns);

@@ -9,3 +9,14 @@ D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\V
 D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.csproj.CopyComplete
 D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.dll
 D:\Учеба\ТОИ\lab8\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.pdb
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\bin\Debug\netcoreapp3.0\ViewModel.deps.json
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\bin\Debug\netcoreapp3.0\ViewModel.dll
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\bin\Debug\netcoreapp3.0\ViewModel.pdb
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\bin\Debug\netcoreapp3.0\Domain.dll
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.csprojAssemblyReference.cache
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.AssemblyInfoInputs.cache
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.AssemblyInfo.cs
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.csproj.CopyComplete
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.dll
+C:\Users\1\RiderProjects\PhysicalProperties\ViewModel\obj\Debug\netcoreapp3.0\ViewModel.pdb

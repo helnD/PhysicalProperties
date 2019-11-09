@@ -1,75 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.MarkingBehaviour;
 
-namespace System
+namespace System.MarkingBehaviour
 {
-    public class ObjectRecognizer
+    public class RowMarking : IMarkingBehaviour
     {
-        private int _index = 0;
-        private readonly List<Color> _colors = new List<Color>
-        {
-            new Color(0, 123, 127),
-            new Color(222, 49, 99),
-            new Color(99, 3, 196),
-            new Color(13, 152, 186),
-            new Color(204, 6, 5),
-            new Color(184, 0, 44),
-            new Color(255, 79, 0),
-            new Color(255, 146, 24),
-            new Color(255, 216, 0),
-            new Color(173, 250, 2),
-            new Color(102, 255, 0),
-            new Color(0, 100, 0),
-            new Color(25, 25, 112),
-            new Color(123, 104, 238),
-            new Color(128, 0, 0),
-        };
-        
-        public IMarkingBehaviour MarkingBehaviour { get; set; }
-            = new RowMarking();
-        
-        public List<GraphicalObject> FindObjects(Model model)
-        {
-            Dictionary<int, List<Pixel>> recognizedObjects = new Dictionary<int, List<Pixel>>();
-
-            Model markingModel = MarkingBehaviour.Marking(model);
-            
-            markingModel.Passing((it, x, y) =>
-            {
-                if (it[x, y].Value > 0)
-                {
-                    if (recognizedObjects.ContainsKey(it[x, y].Value))
-                    {
-                        recognizedObjects[it[x, y].Value].Add(it[x, y]);
-                    }
-                    else
-                    {
-                        recognizedObjects.Add(it[x, y].Value, new List<Pixel> {it[x, y]});
-                    }
-                }
-            });
-
-            List<GraphicalObject> objects = new List<GraphicalObject>();
-            objects.AddRange(recognizedObjects.Select(it =>
-            {
-                Model objModel = new Model(it.Value);
-                Color objColor = _colors[_index];
-                PropertySet objProperties = new PropertyDeterminant().DeterminePropertySet(objModel);
-                Coordinate position = ObjectPosition(it.Value);
-
-                _index = _index + 1 == _colors.Count ? 0 : _index + 1;
-                        
-                return new GraphicalObject(objModel, objColor, objProperties, position);
-            }));
-
-            return objects;
-        }
-        
-        private Coordinate ObjectPosition(List<Pixel> pixels) =>
-            new Coordinate(pixels.Min(it => it.Position.X), pixels.Min(it => it.Position.Y));
-        
-        private Model Marking(Model model)
+        public Model Marking(Model model)
         {
             List<List<int>> table = new List<List<int>>();
             
