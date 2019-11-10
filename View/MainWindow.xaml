@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:View"
         mc:Ignorable="d"
-        WindowStyle="None" Height="600.888" Width="645.5" ResizeMode="NoResize" Background="#FF211438">
+        WindowStyle="None" Height="650" Width="645.5" ResizeMode="NoResize" Background="#FF211438">
     <Grid>
         <Grid Height="30" VerticalAlignment="Top" MouseLeftButtonDown="Border_MouseLeftButtonDown">
             <Label Content="Физические свойства объекта и маркировка" Margin="0,0,0,0" Width="606" Padding="10,6,6,0" HorizontalAlignment="Left">

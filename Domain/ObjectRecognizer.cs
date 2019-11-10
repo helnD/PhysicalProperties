@@ -24,6 +24,16 @@ namespace System
             new Color(25, 25, 112),
             new Color(123, 104, 238),
             new Color(128, 0, 0),
+            new Color(245,187,152),
+            new Color(255, 182,87),
+            new Color(242,139,48),
+            new Color(235,194,175),
+            new Color(201,196,175),
+            new Color(153,153,80),
+            new Color(123,160,91),
+            new Color(255,138,177),
+            new Color(255,97,97),
+            new Color(138,200,255)
         };
         
         public IMarkingBehaviour MarkingBehaviour { get; set; }

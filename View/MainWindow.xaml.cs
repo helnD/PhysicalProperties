@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.DirectoryServices.ActiveDirectory;
 using System.Linq;
 using System.MarkingBehaviour;
 using System.Text;
@@ -258,7 +259,7 @@ namespace View
                                     (byte) obj.ObjectColor.Red,
                                     (byte) obj.ObjectColor.Green,
                                     (byte) obj.ObjectColor.Blue), 
-                                    Colors.Black, 
+                                    Darken(obj.ObjectColor), 
                                     45.0));
                         }
                     }
@@ -266,6 +267,17 @@ namespace View
 
                 DrawLabels(context, sizeX, sizeY);
             }
+        }
+
+        private Color Darken(System.Color basicColor)
+        {
+            Color darkenColor = Color.FromArgb(
+                (byte)255, 
+                (byte)(basicColor.Red / 2),
+                (byte)(basicColor.Green / 2),
+                (byte)(basicColor.Blue / 2));;
+
+            return darkenColor;
         }
 
         private void DrawLabels(MainViewModel context, double sizeX, double sizeY)
