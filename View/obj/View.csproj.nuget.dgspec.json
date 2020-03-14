@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\View\\View.csproj": {}
+    "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\View\\View.csproj": {}
   },
   "projects": {
-    "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj": {
+    "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Виктория\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Виктория\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,31 +48,29 @@
         }
       }
     },
-    "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\ViewModel\\ViewModel.csproj": {
+    "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\ViewModel\\ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\ViewModel\\ViewModel.csproj",
+        "projectUniqueName": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\ViewModel\\ViewModel.csproj",
         "projectName": "ViewModel",
-        "projectPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\ViewModel\\ViewModel.csproj",
-        "packagesPath": "C:\\Users\\Виктория\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\ViewModel\\obj\\",
+        "projectPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\ViewModel\\ViewModel.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Виктория\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj"
+              "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\Domain.csproj"
               }
             }
           }
@@ -100,34 +96,32 @@
         }
       }
     },
-    "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\View\\View.csproj": {
+    "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\View\\View.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\View\\View.csproj",
+        "projectUniqueName": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\View\\View.csproj",
         "projectName": "View",
-        "projectPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\View\\View.csproj",
-        "packagesPath": "C:\\Users\\Виктория\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\View\\obj\\",
+        "projectPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\View\\View.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\View\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Виктория\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj"
+              "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\Domain.csproj"
               },
-              "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\ViewModel\\ViewModel.csproj": {
-                "projectPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\ViewModel\\ViewModel.csproj"
+              "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\ViewModel\\ViewModel.csproj": {
+                "projectPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\ViewModel\\ViewModel.csproj"
               }
             }
           }

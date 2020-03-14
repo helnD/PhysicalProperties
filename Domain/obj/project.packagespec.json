@@ -1,16 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj",
+    "projectUniqueName": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\Domain.csproj",
     "projectName": "Domain",
-    "projectPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\Domain.csproj",
-    "outputPath": "D:\\Учеба\\ТОИ\\lab8\\PhysicalProperties\\Domain\\obj\\",
+    "projectPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\Domain.csproj",
+    "outputPath": "C:\\Users\\1\\RiderProjects\\PhysicalProperties\\Domain\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.0"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {

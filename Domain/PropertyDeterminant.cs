@@ -52,17 +52,17 @@ namespace System
 			{
 				int sum = 0;
 
-				if (it[x, y].Value > 0) sum++;
-				if (it[x + 1, y].Value  > 0) sum++;
-				if (it[x, y + 1].Value  > 0) sum++;
-				if (it[x + 1, y + 1].Value  > 0) sum++;
+				if (it[x, y].Value < 0) sum++;
+				if (it[x + 1, y].Value  < 0) sum++;
+				if (it[x, y + 1].Value  < 0) sum++;
+				if (it[x + 1, y + 1].Value  < 0) sum++;
 
 				if (sum == 3) angles++;
 
 			});
 
 			int simplePerimeter = Perimeter(model);
-			return simplePerimeter - 2 * angles + (int) Math.Sqrt(2) * angles;
+			return simplePerimeter - 2 * angles + (int) Math.Sqrt(2) * angles + 1;
 		}
 
 		private int CircumferenceRatio(Model model)
